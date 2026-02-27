@@ -7,7 +7,6 @@
 
 .carousel-item h2 {
   color: #014363;
-  font-size: 60px;
   font-family: "Mali", cursive;
   font-weight: 600;
 }
@@ -19,10 +18,15 @@
   border-radius: 10px;
 }
 
+.carousel-item {
+  height: 100vh;
+}
+
 .carousel-item img {
   width: 100%;
   height: 100%;
-  object-fit: contain;
+  object-fit: cover;
+  object-position: left center;
 }
 
 @media (max-width: 768px) {
@@ -30,9 +34,7 @@
     font-size: 14px;
   }
 
-  .carousel-item h2 {
-    font-size: 24px;
-  }
+  
 
   .carousel-item button {
     padding: 10px 20px;
@@ -50,10 +52,7 @@
     font-size: 16px;
   }
 
-  .carousel-item h2 {
-    font-size: 48px;
-  }
-
+  
   .carousel-item button {
     font-size: 16px;
     padding: 12px 25px;
