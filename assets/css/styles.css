@@ -311,3 +311,10 @@ font-weight: 600;
 .bymonth:hover .overlay{
   opacity: 1;
 }
+
+.banner h2,
+.banner span,
+.banner button {
+  font-family: Poppins, sans-serif;
+
+}
