@@ -318,3 +318,9 @@ font-weight: 600;
   font-family: Poppins, sans-serif;
 
 }
+.section-title h2{
+  font-family: "Mali", sans-serif;
+font-size: 40px;
+color: #014363;
+font-weight: 700;
+}
