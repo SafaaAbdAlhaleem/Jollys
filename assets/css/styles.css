@@ -334,8 +334,96 @@ font-weight: 700;
   font-size: 18px;
 
 }
-.swiper-slide a {
+.cat-items {
   font-family: "Mali", sans-serif;
   font-size: 16px;
 
+}
+.deal-title span{
+    font-family: Poppins, sans-serif;
+
+}
+.deal-title h2{
+  font-family: "Mali", sans-serif;
+}
+.content-wrap span{
+    font-family: "Mali", sans-serif;
+
+}
+.content-wrap span{
+    font-family: "Mali", sans-serif;
+
+}
+.content-wrap p{
+    font-family: Poppins, sans-serif;
+
+}
+.timer-box {
+  width: 110px;
+  height: 110px;
+  background-image: url('../images/home/shape.png');
+  background-size: 110% 110% ;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.cat-main {
+  transition: all 0.3s ease;
+}
+
+.cat-link-wrap {
+  position: relative;
+  min-height: 28px;
+}
+
+.cat-items,
+.cat-shopnow {
+  position: absolute;
+  left: 0;
+  top: 0;
+  transition: all 0.3s ease;
+}
+
+.cat-items {
+  color: #6b7280;
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.cat-shopnow {
+  color: #f0503e;
+  text-decoration: underline;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(8px);
+  font-family: 'Poppins', sans-serif;
+font-size: 16px;
+
+}
+
+.cat-main:hover .cat-items {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-8px);
+}
+
+.cat-main:hover .cat-shopnow {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+.cat-shopnow:hover {
+  color: black;
+
+}
+.cat-content h3 {
+  transition: color 0.3s ease;
+}
+
+.cat-content h3:hover {
+  color: #f0503e;
 }
