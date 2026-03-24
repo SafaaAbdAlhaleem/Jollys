@@ -1,7 +1,7 @@
 @import "tailwindcss";
 @plugin "daisyui";
+@import 'flowbite';
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-npx @tailwindcss/cli -i ./assets/css/input.css -o ./assets/css/output.css --watch

@@ -427,3 +427,16 @@ font-size: 16px;
 .cat-content h3:hover {
   color: #f0503e;
 }
+.Customer-review-section h2{
+      font-family: "Mali", sans-serif;
+
+}
+.Customer-review-section h3{
+  font-family: 'Poppins', sans-serif;
+
+}
+.Customer-review-section p, span{
+  font-family: 'Poppins', sans-serif;
+
+}
+
