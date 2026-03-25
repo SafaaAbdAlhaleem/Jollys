@@ -24,13 +24,42 @@
 </head>
 
 <body>
+   <header>
+<div class="top-notification-section">
+<div class="top-notification-bar   bg-[#004a68] text-white text-[13px]">
+  <div class="max-w-[1400px] mx-auto px-4">
+    <div class="flex items-center justify-between xl2:justify-between min-h-[42px]">
+
+      <div class="top-bar-left font-medium text-center">
+        <p>        Weekly most popular sale up to 20% off
+</p>
+      </div>
+
+<div class="top-bar-right hidden xl:flex items-center gap-6 font-medium"> 
+         <a href="#" class="hover:text-[#f2553f] transition duration-300">
+          Call : 0123 456 7890
+        </a>
+
+        <a href="#" class="hover:text-[#f2553f] transition duration-300">
+          Login & Register
+        </a>
+
+        <a href="#" class="hover:text-[#f2553f] transition duration-300">
+          Wishlist - 0
+        </a>
+      </div>
+
+    </div>
+  </div>
+</div>
+</div>
 
 <div class="drawer">
   <input id="menu-drawer" type="checkbox" class="drawer-toggle" />
 
   <div class="drawer-content">
 
-    <header>
+   
       <nav class="bg-white w-full top-0 left-0 z-20 border-b border-gray-200">
         <div class="container mx-auto flex items-center justify-between p-4 ">
 
@@ -151,54 +180,9 @@
 
         </div>
       </nav>
-    </header>
 
-    <main>
-      <section class="slider">
-        <div class="carousel w-full">
-
-          <div id="slide1" class="carousel-item relative w-full">
-            <img src="./assets/images/home/slider1.webp" />
-            <div class="absolute right-0 top-[70%] transform -translate-y-1/2 text-white px-4 mr-[292px]">
-              <p class=""">Soft toys start at $99</p>
-              <h2 class=" mb-4 text-[60px]">Every toy<br> a <br> treasure</h2>
-              <button onclick="window.location.href='shop.html'" class="inline-block bg-[#f0503e] text-white px-6 py-3 rounded-full font-semibold transition-all">Shop Now</button>
-            </div>
-            <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-              <a href="#slide3" class="btn btn-circle">❮</a>
-              <a href="#slide2" class="btn btn-circle">❯</a>
-            </div>
-          </div>
-
-          <div id="slide2" class="carousel-item relative w-full">
-            <img src="./assets/images/home/slider2.webp" />
-            <div class="absolute right-0 top-[70%] transform -translate-y-1/2 text-white px-4 mr-[292px]">
-              <p class=" mb-6">New toys 30% discount</p>
-              <h2 class=" mb-4 text-[60px]">Play with <br>our toys</h2>
-              <button onclick="window.location.href='shop.html'" class="inline-block bg-[#f0503e] text-white px-6 py-3 rounded-full font-semibold transition-all">Shop Now</button>
-            </div>
-            <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-              <a href="#slide1" class="btn btn-circle">❮</a>
-              <a href="#slide3" class="btn btn-circle">❯</a>
-            </div>
-          </div>
-
-          <div id="slide3" class="carousel-item relative w-full">
-            <img src="./assets/images/home/slider3.webp" />
-            <div class="absolute right-0 top-[70%] transform -translate-y-1/2 text-white px-4 mr-[292px]">
-              <p class=" mb-6">Save now all soft toys</p>
-              <h2 class=" mb-4 text-[60px]">Toys made <br>with love</h2>
-              <button onclick="window.location.href='shop.html'" class="inline-block bg-[#f0503e] text-white px-6 py-3 rounded-full font-semibold transition-all">Shop Now</button>
-            </div>
-            <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-              <a href="#slide2" class="btn btn-circle">❮</a>
-              <a href="#slide1" class="btn btn-circle">❯</a>
-            </div>
-          </div>
-
-        </div>
-      </section>
-    </main>
+    
+    
 
   </div>
 
@@ -288,7 +272,53 @@
   </div>
 
 </div>
+    </header>
 
+  <section class="slider">
+        <div class="carousel w-full">
+
+          <div id="slide1" class="carousel-item relative w-full">
+            <img src="./assets/images/home/slider1.webp" />
+            <div class="absolute right-0 top-[70%] transform -translate-y-1/2 text-white px-4 mr-[292px]">
+              <p class=""">Soft toys start at $99</p>
+              <h2 class=" mb-4 text-[60px]">Every toy<br> a <br> treasure</h2>
+              <button onclick="window.location.href='shop.html'" class="inline-block bg-[#f0503e] text-white px-6 py-3 rounded-full font-semibold transition-all">Shop Now</button>
+            </div>
+            <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+              <a href="#slide3" class="btn btn-circle">❮</a>
+              <a href="#slide2" class="btn btn-circle">❯</a>
+            </div>
+          </div>
+
+          <div id="slide2" class="carousel-item relative w-full">
+            <img src="./assets/images/home/slider2.webp" />
+            <div class="absolute right-0 top-[70%] transform -translate-y-1/2 text-white px-4 mr-[292px]">
+              <p class=" mb-6">New toys 30% discount</p>
+              <h2 class=" mb-4 text-[60px]">Play with <br>our toys</h2>
+              <button onclick="window.location.href='shop.html'" class="inline-block bg-[#f0503e] text-white px-6 py-3 rounded-full font-semibold transition-all">Shop Now</button>
+            </div>
+            <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+              <a href="#slide1" class="btn btn-circle">❮</a>
+              <a href="#slide3" class="btn btn-circle">❯</a>
+            </div>
+          </div>
+
+          <div id="slide3" class="carousel-item relative w-full">
+            <img src="./assets/images/home/slider3.webp" />
+            <div class="absolute right-0 top-[70%] transform -translate-y-1/2 text-white px-4 mr-[292px]">
+              <p class=" mb-6">Save now all soft toys</p>
+              <h2 class=" mb-4 text-[60px]">Toys made <br>with love</h2>
+              <button onclick="window.location.href='shop.html'" class="inline-block bg-[#f0503e] text-white px-6 py-3 rounded-full font-semibold transition-all">Shop Now</button>
+            </div>
+            <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+              <a href="#slide2" class="btn btn-circle">❮</a>
+              <a href="#slide1" class="btn btn-circle">❯</a>
+            </div>
+          </div>
+
+        </div>
+      </section>
+   
 <section class="our-service-area  flex-column justify-center border-b">
   <div class="container mx-auto px-4">
     <div class="row">
@@ -1051,8 +1081,6 @@ class="w-[160px] h-[160px] md:w-[191px] md:h-[191px]"
   </div>
 </section>
 
-
-
 <section class="   Customer-review-section bg-[#eef3f6] py-[80px]">
   <div class="container max-w-[1700px] mx-auto px-4">
     <div class="row">
@@ -1180,12 +1208,90 @@ class="w-[160px] h-[160px] md:w-[191px] md:h-[191px]"
     </div>
   </div>
 </section>
+<section class="  our-brand-section bg-[#f3f6f8] py-10">
+  <div class="container max-w-[1400px] mx-auto px-4">
 
+    <div class="swiper brandSwiper">
+      <div class="swiper-wrapper">
 
+        <div class="swiper-slide !flex items-center justify-center h-[120px]">
+          <img src="./assets/images/home/kids-brand-logo-1.webp" alt="brand"
+            class="max-w-[140px] w-full h-auto object-contain opacity-60 grayscale transition duration-300 hover:opacity-100 hover:grayscale-0" />
+        </div>
+
+        <div class="swiper-slide !flex items-center justify-center h-[120px]">
+          <img src="./assets/images/home/kids-brand-logo-2.webp" alt="brand"
+            class="max-w-[140px] w-full h-auto object-contain opacity-60 grayscale transition duration-300 hover:opacity-100 hover:grayscale-0" />
+        </div>
+
+        <div class="swiper-slide !flex items-center justify-center h-[120px]">
+          <img src="./assets/images/home/kids-brand-logo-3.webp" alt="brand"
+            class="max-w-[140px] w-full h-auto object-contain opacity-60 grayscale transition duration-300 hover:opacity-100 hover:grayscale-0" />
+        </div>
+
+        <div class="swiper-slide !flex items-center justify-center h-[120px]">
+          <img src="./assets/images/home/kids-brand-logo-4.webp" alt="brand"
+            class="max-w-[140px] w-full h-auto object-contain opacity-60 grayscale transition duration-300 hover:opacity-100 hover:grayscale-0" />
+        </div>
+
+        <div class="swiper-slide !flex items-center justify-center h-[120px]">
+          <img src="./assets/images/home/kids-brand-logo-5.webp" alt="brand"
+            class="max-w-[140px] w-full h-auto object-contain opacity-60 grayscale transition duration-300 hover:opacity-100 hover:grayscale-0" />
+        </div>
+
+        <div class="swiper-slide !flex items-center justify-center h-[120px]">
+          <img src="./assets/images/home/kids-brand-logo-6.webp" alt="brand"
+            class="max-w-[140px] w-full h-auto object-contain opacity-60 grayscale transition duration-300 hover:opacity-100 hover:grayscale-0" />
+      </div>
+       <div class="swiper-slide !flex items-center justify-center h-[120px]">
+          <img src="./assets/images/home/kids-brand-logo-7.webp" alt="brand"
+            class="max-w-[140px] w-full h-auto object-contain opacity-60 grayscale transition duration-300 hover:opacity-100 hover:grayscale-0" />
+      </div>
+      </div>
+    </div>
+  </div>
+</section>
 
 
 
 <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+
+<script>
+  const brandSwiper = new Swiper(".brandSwiper", {
+    loop: true,
+    spaceBetween: 20,
+    slidesPerView: 1,
+    speed: 800,
+    autoplay: {
+      delay: 2000,
+      disableOnInteraction: false,
+      pauseOnMouseEnter: true,
+    },
+    breakpoints: {
+      320: {
+        slidesPerView: 1,
+      },
+      375: {
+        slidesPerView: 2,
+      },
+      425: {
+        slidesPerView: 2,
+      },
+      640: {
+        slidesPerView: 3,
+      },
+      768: {
+        slidesPerView: 4,
+      },
+      1024: {
+        slidesPerView: 5,
+      },
+       1440: {
+        slidesPerView: 6,
+      },
+    },
+  });
+</script>
 <script>
   new Swiper(".reviewSwiper", {
     loop: true,
@@ -1280,4 +1386,265 @@ class="w-[160px] h-[160px] md:w-[191px] md:h-[191px]"
 </script>
 <script src="../node_modules/flowbite/dist/flowbite.min.js"></script>
 </body>
+<footer>
+  <section class="footer-section">
+
+      <div class="first-footer py-10 md:py-16 border-b border-[#dddddd]">
+        <div class="max-w-[1400px] mx-auto px-4">
+          <div class="grid grid-cols-1 lg:grid-cols-3 items-center gap-6 lg:gap-8 text-center lg:text-left">
+
+            <div>
+              <h2 class="text-[26px] md:text-[42px] font-bold text-[#f2553f] leading-tight">
+                Subscribe now
+              </h2>
+            </div>
+
+            <div>
+              <p class="text-[16px] text-[#6b7280] leading-[1.8] max-w-[420px] mx-auto lg:mx-0">
+                Subscribe to our newsletter and Get
+                <br>
+                10% off on your first order
+              </p>
+            </div>
+
+            <div>
+             <form class="w-full">
+  <div class="flex flex-col sm:flex-row w-full">
+    <input
+      type="email"
+      placeholder="Enter your email.."
+      class="w-full h-[60px] px-6 text-[18px] text-[#6b7280] outline-none bg-transparent border border-[#d9d9d9] rounded-[16px] sm:rounded-l-[16px] sm:rounded-r-none"
+    />
+
+    <button
+      type="submit"
+      class="h-[58px] sm:h-[60px] w-fit mx-auto mt-4 sm:mt-0 sm:mx-0 px-8 shrink-0 bg-[#f2553f] text-white text-[18px] font-semibold uppercase whitespace-nowrap hover:bg-black transition duration-300 flex items-center justify-center gap-2 rounded-[14px] sm:rounded-l-none sm:rounded-r-[16px]"
+    >
+      <i class="fa-regular fa-envelope"></i>
+      <span>Subscribe</span>
+    </button>
+  </div>
+</form>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="second-footer py-10 md:py-14">
+        <div class="max-w-[1400px] mx-auto px-4">
+
+          <!-- desktop/tablet -->
+<div class="second-footer-wrap hidden md:grid md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-5 gap-y-10 gap-x-8 items-start">            <!-- logo + social -->
+<div class="logo-footer md:col-span-2 lg:col-span-4 xl:col-span-1 flex flex-col items-center text-center xl:items-start xl:text-left">
+  <a href="#" class="inline-block mb-8">
+    <img src="./assets/images/home/logo.avif" alt="Jollys" class="max-w-[140px]">
+  </a>               
+
+<div class="social-footer flex items-center justify-center xl:justify-start gap-3 ">   
+               <a href="#" class="w-10 h-10 rounded-full border border-[#d9d9d9] flex items-center justify-center text-[#6b7280] hover:bg-[#f2553f] hover:text-white hover:border-[#f2553f] transition duration-300">
+                  <i class="fa-brands fa-facebook-f text-sm"></i>
+                </a>
+                <a href="#" class="w-10 h-10 rounded-full border border-[#d9d9d9] flex items-center justify-center text-[#6b7280] hover:bg-[#f2553f] hover:text-white hover:border-[#f2553f] transition duration-300">
+                  <i class="fa-brands fa-instagram text-sm"></i>
+                </a>
+                <a href="#" class="w-10 h-10 rounded-full border border-[#d9d9d9] flex items-center justify-center text-[#6b7280] hover:bg-[#f2553f] hover:text-white hover:border-[#f2553f] transition duration-300">
+                  <i class="fa-brands fa-twitter text-sm"></i>
+                </a>
+                <a href="#" class="w-10 h-10 rounded-full border border-[#d9d9d9] flex items-center justify-center text-[#6b7280] hover:bg-[#f2553f] hover:text-white hover:border-[#f2553f] transition duration-300">
+                  <i class="fa-brands fa-dribbble text-sm"></i>
+                </a>
+                <a href="#" class="w-10 h-10 rounded-full border border-[#d9d9d9] flex items-center justify-center text-[#6b7280] hover:bg-[#f2553f] hover:text-white hover:border-[#f2553f] transition duration-300">
+                  <i class="fa-brands fa-youtube text-sm"></i>
+                </a>
+              </div>
+            </div>
+
+<div class="conact-us-footer md:col-span-1 lg:col-span-1">              <h3 class="text-[20px] font-semibold text-[#f2553f] mb-5">Contact us</h3>
+              <ul class="space-y-3 text-[15px] text-[#6b7280] leading-[1.9]">
+                <li class="flex items-start gap-3">
+                  <i class="fa-solid fa-location-dot text-[#f2553f] mt-1"></i>
+                  <span>
+                    70 Washington square south,<br>
+                    New york ny 10012,<br>
+                    United states
+                  </span>
+                </li>
+                <li class="flex items-center gap-3">
+                  <i class="fa-solid fa-phone text-[#f2553f]"></i>
+                  <a href="#" class="hover:text-[#f2553f] transition duration-300">+36 0123 456 789</a>
+                </li>
+                <li class="flex items-center gap-3">
+                  <i class="fa-regular fa-envelope text-[#f2553f]"></i>
+                  <a href="#" class="hover:text-[#f2553f] transition duration-300">demo@demo.com</a>
+                </li>
+              </ul>
+            </div>
+
+<div class="categories-footer md:col-span-1 lg:col-span-1">              <h3 class="text-[20px] font-semibold text-[#f2553f] mb-5">Categories</h3>
+              <ul class="space-y-2 text-[15px] text-[#6b7280]">
+                <li><a href="#" class="hover:text-[#f2553f] transition duration-300">Toy cars</a></li>
+                <li><a href="#" class="hover:text-[#f2553f] transition duration-300">Beach ball</a></li>
+                <li><a href="#" class="hover:text-[#f2553f] transition duration-300">Teddy bear</a></li>
+                <li><a href="#" class="hover:text-[#f2553f] transition duration-300">Baby scooter</a></li>
+                <li><a href="#" class="hover:text-[#f2553f] transition duration-300">Racing car</a></li>
+                <li><a href="#" class="hover:text-[#f2553f] transition duration-300">Baby bike</a></li>
+              </ul>
+            </div>
+
+<div class="informaion-footer md:col-span-1 lg:col-span-1">              <h3 class="text-[20px] font-semibold text-[#f2553f] mb-5">Information</h3>
+              <ul class="space-y-2 text-[15px] text-[#6b7280]">
+                <li><a href="#" class="hover:text-[#f2553f] transition duration-300">About us</a></li>
+                <li><a href="#" class="hover:text-[#f2553f] transition duration-300">Contact us</a></li>
+                <li><a href="#" class="hover:text-[#f2553f] transition duration-300">Faqs</a></li>
+                <li><a href="#" class="hover:text-[#f2553f] transition duration-300">Privacy policy</a></li>
+                <li><a href="#" class="hover:text-[#f2553f] transition duration-300">Return policy</a></li>
+                <li><a href="#" class="hover:text-[#f2553f] transition duration-300">Payment policy</a></li>
+              </ul>
+            </div>
+
+<div class="privacy-footer md:col-span-1 lg:col-span-1">              <h3 class="text-[20px] font-semibold text-[#f2553f] mb-5">Privacy & terms</h3>
+              <ul class="space-y-2 text-[15px] text-[#6b7280]">
+                <li><a href="#" class="hover:text-[#f2553f] transition duration-300">My account</a></li>
+                <li><a href="#" class="hover:text-[#f2553f] transition duration-300">My wishlist</a></li>
+                <li><a href="#" class="hover:text-[#f2553f] transition duration-300">My cart</a></li>
+                <li><a href="#" class="hover:text-[#f2553f] transition duration-300">Terms & condition</a></li>
+                <li><a href="#" class="hover:text-[#f2553f] transition duration-300">Help & support</a></li>
+                <li><a href="#" class="hover:text-[#f2553f] transition duration-300">Store location</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- mobile -->
+          <div class="mobile-footer md:hidden">
+            <div class="logo-footer flex flex-col items-center text-center mb-8">
+              <a href="#" class="inline-block mb-8">
+                <img src="./assets/images/home/logo.avif" alt="Jollys" class="max-w-[140px]">
+              </a>
+
+              <div class="social-footer flex items-center justify-center gap-3 flex-wrap">
+                <a href="#" class="w-10 h-10 rounded-full border border-[#d9d9d9] flex items-center justify-center text-[#6b7280]">
+                  <i class="fa-brands fa-facebook-f text-sm"></i>
+                </a>
+                <a href="#" class="w-10 h-10 rounded-full border border-[#d9d9d9] flex items-center justify-center text-[#6b7280]">
+                  <i class="fa-brands fa-instagram text-sm"></i>
+                </a>
+                <a href="#" class="w-10 h-10 rounded-full border border-[#d9d9d9] flex items-center justify-center text-[#6b7280]">
+                  <i class="fa-brands fa-twitter text-sm"></i>
+                </a>
+                <a href="#" class="w-10 h-10 rounded-full border border-[#d9d9d9] flex items-center justify-center text-[#6b7280]">
+                  <i class="fa-brands fa-dribbble text-sm"></i>
+                </a>
+                <a href="#" class="w-10 h-10 rounded-full border border-[#d9d9d9] flex items-center justify-center text-[#6b7280]">
+                  <i class="fa-brands fa-youtube text-sm"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="mobile-footer-accordion space-y-3">
+              <details class="conact-us-footer group border-b border-transparent pb-2">
+                <summary class="list-none flex items-center justify-between cursor-pointer text-[20px] font-semibold text-[#f2553f]">
+                  <span>Contact us</span>
+                  <span class="text-[34px] leading-none font-normal group-open:rotate-45 transition duration-300">+</span>
+                </summary>
+                <ul class="pt-4 space-y-3 text-[15px] text-[#6b7280] leading-[1.9]">
+                  <li class="flex items-start gap-3">
+                    <i class="fa-solid fa-location-dot text-[#f2553f] mt-1"></i>
+                    <span>
+                      70 Washington square south,<br>
+                      New york ny 10012,<br>
+                      United states
+                    </span>
+                  </li>
+                  <li class="flex items-center gap-3">
+                    <i class="fa-solid fa-phone text-[#f2553f]"></i>
+                    <a href="#">+36 0123 456 789</a>
+                  </li>
+                  <li class="flex items-center gap-3">
+                    <i class="fa-regular fa-envelope text-[#f2553f]"></i>
+                    <a href="#">demo@demo.com</a>
+                  </li>
+                </ul>
+              </details>
+
+              <details class="categories-footer group border-b border-transparent pb-2">
+                <summary class="list-none flex items-center justify-between cursor-pointer text-[20px] font-semibold text-[#f2553f]">
+                  <span>Categories</span>
+                  <span class="text-[34px] leading-none font-normal group-open:rotate-45 transition duration-300">+</span>
+                </summary>
+                <ul class="pt-4 space-y-2 text-[15px] text-[#6b7280]">
+                  <li><a href="#">Toy cars</a></li>
+                  <li><a href="#">Beach ball</a></li>
+                  <li><a href="#">Teddy bear</a></li>
+                  <li><a href="#">Baby scooter</a></li>
+                  <li><a href="#">Racing car</a></li>
+                  <li><a href="#">Baby bike</a></li>
+                </ul>
+              </details>
+
+              <details class="informaion-footer group border-b border-transparent pb-2">
+                <summary class="list-none flex items-center justify-between cursor-pointer text-[20px] font-semibold text-[#f2553f]">
+                  <span>Information</span>
+                  <span class="text-[34px] leading-none font-normal group-open:rotate-45 transition duration-300">+</span>
+                </summary>
+                <ul class="pt-4 space-y-2 text-[15px] text-[#6b7280]">
+                  <li><a href="#">About us</a></li>
+                  <li><a href="#">Contact us</a></li>
+                  <li><a href="#">Faqs</a></li>
+                  <li><a href="#">Privacy policy</a></li>
+                  <li><a href="#">Return policy</a></li>
+                  <li><a href="#">Payment policy</a></li>
+                </ul>
+              </details>
+
+              <details class="privacy-footer group border-b border-transparent pb-2">
+                <summary class="list-none flex items-center justify-between cursor-pointer text-[20px] font-semibold text-[#f2553f]">
+                  <span>Privacy & terms</span>
+                  <span class="text-[34px] leading-none font-normal group-open:rotate-45 transition duration-300">+</span>
+                </summary>
+                <ul class="pt-4 space-y-2 text-[15px] text-[#6b7280]">
+                  <li><a href="#">My account</a></li>
+                  <li><a href="#">My wishlist</a></li>
+                  <li><a href="#">My cart</a></li>
+                  <li><a href="#">Terms & condition</a></li>
+                  <li><a href="#">Help & support</a></li>
+                  <li><a href="#">Store location</a></li>
+                </ul>
+              </details>
+            </div>
+          </div>
+
+        </div>
+      </div>
+<div class="third-footer border-t border-[#dddddd] py-6">
+  <div class="max-w-[1400px] mx-auto px-4">
+    <div class="flex flex-col md:flex-row items-center justify-between gap-4">
+
+      <div class="copyright-footer text-[15px] text-[#6b7280] text-center md:text-left">
+        <p>© 2026, Ecommerce by qodexTM</p>
+      </div>
+
+      <div class="payment-footer flex items-center gap-3">
+        <a href="#" class="w-[54px] h-[34px] rounded-[6px] border border-[#d9d9d9] bg-white flex items-center justify-center">
+          <img src="./assets/images/home/visa-classic.svg" alt="Visa" class="max-h-[40px] object-contain">
+        </a>
+
+        <a href="#" class="w-[54px] h-[34px] rounded-[6px] border border-[#d9d9d9] bg-white flex items-center justify-center">
+          <img src="./assets/images/home/paypal.svg" alt="Paypal" class="max-h-[40px] object-contain">
+        </a>
+
+        <a href="#" class="w-[54px] h-[34px] rounded-[6px] border border-[#d9d9d9] bg-white flex items-center justify-center">
+          <img src="./assets/images/home/mastercard.svg" alt="Mastercard" class="max-h-[40px] object-contain">
+        </a>
+
+        <a href="#" class="w-[54px] h-[34px] rounded-[6px] border border-[#d9d9d9] bg-white flex items-center justify-center">
+          <img src="./assets/images/home/american-express.svg" alt="Amex" class="max-h-[40px] object-contain">
+        </a>
+      </div>
+
+    </div>
+  </div>
+</div>
+  </section>
+</footer>
 </html>
