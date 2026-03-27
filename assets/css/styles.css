@@ -505,3 +505,26 @@ font-size: 16px;
             font-family: 'Poppins', sans-serif;
 
 }
+.hero-contact-section{
+  background-image: url('../images/collection/breadcrumb.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.contact-item-content
+{
+              font-family: 'Poppins', sans-serif;
+
+}
+.content-third-section h2{
+            font-family: "Mali", sans-serif;
+
+}
+.content-third-section p ,button{
+            font-family: 'Poppins', sans-serif;
+
+}
+.contact-form-section label,input,button{
+              font-family: 'Poppins', sans-serif;
+
+}
