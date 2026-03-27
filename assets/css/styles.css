@@ -528,3 +528,74 @@ font-size: 16px;
               font-family: 'Poppins', sans-serif;
 
 }
+.hero-shop-section{
+  background-image: url('../images/collection/breadcrumb.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+                font-family: 'Poppins', sans-serif;
+
+}
+.sort-section {
+                font-family: 'Poppins', sans-serif;
+
+}
+.collection-img-wrap{
+                  font-family: 'Poppins', sans-serif;
+
+}
+.categories-checkboxes{
+                    font-family: 'Poppins', sans-serif;
+
+}
+.filter{
+                      font-family: 'Poppins', sans-serif;
+
+}
+.availability{
+                        font-family: 'Poppins', sans-serif;
+
+}
+.price-filter{
+                          font-family: 'Poppins', sans-serif;
+
+}
+.price-range {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-appearance: none;
+  appearance: none;
+  background: transparent;
+  pointer-events: none;
+  height: 4px;
+  outline: none;
+}
+
+.price-range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #f2553f;
+  border: 2px solid white;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.25);
+  pointer-events: all;
+  cursor: pointer;
+}
+
+.price-range::-moz-range-thumb {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #f2553f;
+  border: 2px solid white;
+  pointer-events: all;
+  cursor: pointer;
+}
+.product-color-filter{
+                            font-family: 'Poppins', sans-serif;
+
+}

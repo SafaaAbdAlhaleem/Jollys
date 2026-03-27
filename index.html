@@ -11,6 +11,7 @@
   <link href="https://cdn.jsdelivr.net/npm/daisyui@4.4.19/dist/full.min.css" rel="stylesheet" type="text/css" />
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
+  <title >Home</title>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Mali:wght@400;700&display=swap" rel="stylesheet">
 <link
@@ -58,138 +59,157 @@
   <input id="menu-drawer" type="checkbox" class="drawer-toggle" />
 
   <div class="drawer-content">
+    <nav class="bg-white w-full top-0 left-0 z-20 border-b border-gray-200">
+      <div class="container mx-auto flex items-center justify-between p-4">
 
-   
-      <nav class="bg-white w-full top-0 left-0 z-20 border-b border-gray-200">
-        <div class="container mx-auto flex items-center justify-between p-4 ">
+        <img src="./assets/images/home/logo.avif" loading="lazy" class="img-fluid" alt="Logo" width="135" height="55">
 
-          <img src="./assets/images/home/logo.avif" loading="lazy" class="img-fluid" alt="Logo" width="135" height="55">
+        <!-- desktop nav -->
+        <div class="hidden xl:flex items-center gap-6 h-[72px]">
+          <a href="index.html" class="nav-link h-full flex items-center">HOME</a>
 
-          <div class="hidden xl:flex items-center gap-6">
-            <a href="#" class="nav-link">HOME</a>
+          <!-- SHOP -->
+          <div class="dropdown dropdown-hover relative h-full flex items-center">
+            <a href="shop.html" class="nav-link h-full flex items-center gap-1">
+              SHOP <i class="fa-solid fa-chevron-down text-xs"></i>
+            </a>
 
-            <div class="dropdown dropdown-hover relative">
-              <div tabindex="0" role="button" class="nav-link flex items-center gap-1">
-                SHOP <i class="fa-solid fa-chevron-down text-xs"></i>
+            <div
+              class="dropdown-content bg-white shadow-lg border-t border-gray-200 p-8"
+              style="
+                display:flex;
+                flex-direction:row;
+                gap:40px;
+                position:absolute;
+                left:0;
+                top:100%;
+                margin-top:0;
+                min-width:1100px;
+                z-index:200;
+              "
+            >
+              <div style="display:flex; flex-direction:row; gap:60px; flex:1; font-family:Poppins, sans-serif;">
+                <div style="display:flex; flex-direction:column; gap:12px;">
+                  <div style="color:#014363; font-weight:bold; font-size:18px; margin-bottom:8px;">Speed cube</div>
+                  <a href="#" style="color:#6b7280; font-size:15px;" class="hover:text-[#f0503e]">Animal jumping toys</a>
+                  <a href="#" style="color:#6b7280; font-size:15px;" class="hover:text-[#f0503e]">Cottage playset</a>
+                  <a href="#" style="color:#6b7280; font-size:15px;" class="hover:text-[#f0503e]">First pram</a>
+                  <a href="#" style="color:#6b7280; font-size:15px;" class="hover:text-[#f0503e]">Racing vehicles models</a>
+                  <a href="#" style="color:#6b7280; font-size:15px;" class="hover:text-[#f0503e]">Robot on chassis</a>
+                </div>
+
+                <div style="display:flex; flex-direction:column; gap:12px;">
+                  <div style="color:#014363; font-weight:bold; font-size:18px; margin-bottom:8px;">Beach ball</div>
+                  <a href="#" style="color:#6b7280; font-size:15px;" class="hover:text-[#f0503e]">Animal rescue truck</a>
+                  <a href="#" style="color:#6b7280; font-size:15px;" class="hover:text-[#f0503e]">Elephant soft toy</a>
+                  <a href="#" style="color:#6b7280; font-size:15px;" class="hover:text-[#f0503e]">Mythic blaster</a>
+                  <a href="#" style="color:#6b7280; font-size:15px;" class="hover:text-[#f0503e]">Red garden slide</a>
+                  <a href="#" style="color:#6b7280; font-size:15px;" class="hover:text-[#f0503e]">Speed cube</a>
+                </div>
               </div>
-              <div tabindex="0" class="dropdown-content bg-white shadow-lg border-t border-gray-200 p-8"
-                style="display:flex; flex-direction:row; gap:40px;
-                       position:fixed; left:0; right:0; width:100vw;
-                       top:73px; z-index:50;">
-                <div style="display:flex; flex-direction:row; gap:60px; flex:1; font-family: Poppins, sans-serif;">
-                  <div style="display:flex; flex-direction:column; gap:12px;">
-                    <div style="color:#014363; font-weight:bold; font-size:18px; margin-bottom:8px;">Speed cube</div>
-                    <a href="#" style="color:#6b7280; font-size:15px;" class="hover:text-[#f0503e]">Animal jumping toys</a>
-                    <a href="#" style="color:#6b7280; font-size:15px;" class="hover:text-[#f0503e]">Cottage playset</a>
-                    <a href="#" style="color:#6b7280; font-size:15px;" class="hover:text-[#f0503e]">First pram</a>
-                    <a href="#" style="color:#6b7280; font-size:15px;" class="hover:text-[#f0503e]">Racing vehicles models</a>
-                    <a href="#" style="color:#6b7280; font-size:15px;" class="hover:text-[#f0503e]">Robot on chassis</a>
-                  </div>
-                  <div style="display:flex; flex-direction:column; gap:12px;">
-                    <div style="color:#014363; font-weight:bold; font-size:18px; margin-bottom:8px;">Beach ball</div>
-                    <a href="#" style="color:#6b7280; font-size:15px;" class="hover:text-[#f0503e]">Animal rescue truck</a>
-                    <a href="#" style="color:#6b7280; font-size:15px;" class="hover:text-[#f0503e]">Elephant soft toy</a>
-                    <a href="#" style="color:#6b7280; font-size:15px;" class="hover:text-[#f0503e]">Mythic blaster</a>
-                    <a href="#" style="color:#6b7280; font-size:15px;" class="hover:text-[#f0503e]">Red garden slide</a>
-                    <a href="#" style="color:#6b7280; font-size:15px;" class="hover:text-[#f0503e]">Speed cube</a>
+
+              <div style="width:1px; background-color:#e5e7eb; flex-shrink:0;"></div>
+
+              <div style="display:flex; flex-direction:row; gap:16px; flex-shrink:0;">
+                <div style="position:relative; border-radius:10px; overflow:hidden; cursor:pointer;">
+                  <img src="./assets/images/home/menu-banner-1.webp" alt="Banner 1"
+                    style="width:280px; height:auto; display:block; object-fit:contain;" />
+                  <div style="position:absolute; inset:0; background:rgba(0,0,0,0); transition:background 0.3s; pointer-events:none;"
+                    onmouseover="this.style.background='rgba(0,0,0,0.5)'"
+                    onmouseout="this.style.background='rgba(0,0,0,0)'">
                   </div>
                 </div>
-                <div style="width:1px; background-color:#e5e7eb; flex-shrink:0;"></div>
-<div style="display:flex; flex-direction:row; gap:16px; flex-shrink:0;">
-  
-  <div style="position:relative; border-radius:10px; overflow:hidden; cursor:pointer;">
-    <img src="./assets/images/home/menu-banner-1.webp" alt="Banner 1"
-      style="width:280px; height:auto; display:block; object-fit:contain;" />
-    <div style="position:absolute; inset:0; background:rgba(0,0,0,0); transition:background 0.3s;"
-      onmouseover="this.style.background='rgba(0,0,0,0.5)'"
-      onmouseout="this.style.background='rgba(0,0,0,0)'">
-    </div>
-  </div>
 
-  <div style="position:relative; border-radius:10px; overflow:hidden; cursor:pointer;">
-    <img src="./assets/images/home/menu-banner-2.webp" alt="Banner 2"
-      style="width:280px; height:auto; display:block; object-fit:contain;" />
-    <div style="position:absolute; inset:0; background:rgba(0,0,0,0); transition:background 0.3s;"
-      onmouseover="this.style.background='rgba(0,0,0,0.5)'"
-      onmouseout="this.style.background='rgba(0,0,0,0)'">
-    </div>
-  </div>
-
-</div>
+                <div style="position:relative; border-radius:10px; overflow:hidden; cursor:pointer;">
+                  <img src="./assets/images/home/menu-banner-2.webp" alt="Banner 2"
+                    style="width:280px; height:auto; display:block; object-fit:contain;" />
+                  <div style="position:absolute; inset:0; background:rgba(0,0,0,0); transition:background 0.3s; pointer-events:none;"
+                    onmouseover="this.style.background='rgba(0,0,0,0.5)'"
+                    onmouseout="this.style.background='rgba(0,0,0,0)'">
+                  </div>
+                </div>
               </div>
             </div>
+          </div>
 
-            <a href="collection.html" class="nav-link">COLLECTION</a>
-            <a href="blog.html" class="nav-link">BLOG</a>
+          <a href="collection.html" class="nav-link h-full flex items-center">COLLECTION</a>
+          <a href="blog.html" class="nav-link h-full flex items-center">BLOG</a>
+                       <a href="contact.html" class="nav-link h-full flex items-center">Contact us</a>
 
-            <div class="dropdown dropdown-hover">
-              <div tabindex="0" role="button" class="nav-link flex items-center gap-1">
-                PAGE <i class="fa-solid fa-chevron-down text-xs"></i>
-              </div>
-              <ul tabindex="0" class="dropdown-content menu bg-white rounded-box z-[1] w-52 p-2 shadow-lg border border-gray-200">
-                <li><a href="#" class="text-gray-700 hover:bg-gray-100">About us</a></li>
-                <li><a href="contact.html" class="text-gray-700 hover:bg-gray-100">Contact us</a></li>
-                <li><a href="#" class="text-gray-700 hover:bg-gray-100">Faqs</a></li>
-                <li><a href="#" class="text-gray-700 hover:bg-gray-100">Return policy</a></li>
-                <li><a href="#" class="text-gray-700 hover:bg-gray-100">Privacy policy</a></li>
-                <li><a href="#" class="text-gray-700 hover:bg-gray-100">Payment policy</a></li>
-                <li><a href="#" class="text-gray-700 hover:bg-gray-100">Terms & condition</a></li>
+
+          <!-- PAGE -->
+          <div class="dropdown dropdown-hover h-full flex items-center">
+            <div tabindex="0" role="button" class="nav-link h-full flex items-center gap-1">
+              PAGE <i class="fa-solid fa-chevron-down text-xs"></i>
+            </div>
+            <ul tabindex="0" class="dropdown-content menu bg-white rounded-box z-[1] w-52 p-2 shadow-lg border border-gray-200">
+              <li><a href="#" class="text-gray-700 hover:bg-gray-100">About us</a></li>
+              <li><a href="#" class="text-gray-700 hover:bg-gray-100">Faqs</a></li>
+              <li><a href="#" class="text-gray-700 hover:bg-gray-100">Return policy</a></li>
+              <li><a href="#" class="text-gray-700 hover:bg-gray-100">Privacy policy</a></li>
+              <li><a href="#" class="text-gray-700 hover:bg-gray-100">Payment policy</a></li>
+              <li><a href="#" class="text-gray-700 hover:bg-gray-100">Terms & condition</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- right side -->
+        <div class="flex items-center gap-3">
+          <label for="menu-drawer" class="btn btn-ghost btn-circle xl:hidden">
+            <i class="fa-solid fa-bars text-xl"></i>
+          </label>
+
+          <button class="btn btn-ghost btn-circle xl:hidden">
+            <i class="fa-solid fa-magnifying-glass text-xl"></i>
+          </button>
+
+          <button class="btn btn-ghost btn-circle xl:hidden">
+            <i class="fa-regular fa-user text-xl"></i>
+          </button>
+
+          <button class="btn btn-ghost btn-circle xl:hidden relative">
+            <i class="fa-regular fa-heart text-xl"></i>
+            <span class="absolute -top-1 -right-1 bg-red-500 text-white text-xs rounded-full w-5 h-5 flex items-center justify-center">0</span>
+          </button>
+
+          <form class="hidden xl:flex items-center gap-0 form-border rounded">
+            <input type="search" placeholder="Search." class="px-3 py-1.5 rounded">
+            <button class="bg-[#f0503e] text-white px-3 py-2 rounded">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+          </form>
+
+          <!-- cart drawer -->
+          <div class="drawer drawer-end" style="position:relative; z-index:30;">
+            <input id="my-drawer-5" type="checkbox" class="drawer-toggle" />
+
+            <div class="drawer-content">
+              <label for="my-drawer-5" class="drawer-button hidden md:flex btn bg-[#f0503e] text-white px-4 md:px-6 py-2 md:py-3 rounded items-center gap-2 text-sm md:text-base">
+                <i class="fa-solid fa-bag-shopping"></i> My cart <span class="ml-2">~ 0</span>
+              </label>
+
+              <label for="my-drawer-5" class="drawer-button md:hidden btn btn-circle bg-[#f0503e] text-white">
+                <i class="fa-solid fa-bag-shopping text-xl"></i>
+              </label>
+            </div>
+
+            <div class="drawer-side z-[9999]">
+              <label for="my-drawer-5" aria-label="close sidebar" class="drawer-overlay"></label>
+              <ul class="menu bg-base-200 min-h-full w-80 p-4">
+                <li><a>No products in the cart.</a></li>
               </ul>
             </div>
           </div>
-
-          <div class="flex items-center gap-3">
-            <label for="menu-drawer" class="btn btn-ghost btn-circle xl:hidden">
-              <i class="fa-solid fa-bars text-xl"></i>
-            </label>
-            <button class="btn btn-ghost btn-circle xl:hidden">
-              <i class="fa-solid fa-magnifying-glass text-xl"></i>
-            </button>
-            <button class="btn btn-ghost btn-circle xl:hidden">
-              <i class="fa-regular fa-user text-xl"></i>
-            </button>
-            <button class="btn btn-ghost btn-circle xl:hidden relative">
-              <i class="fa-regular fa-heart text-xl"></i>
-              <span class="absolute -top-1 -right-1 bg-red-500 text-white text-xs rounded-full w-5 h-5 flex items-center justify-center">0</span>
-            </button>
-            <form class="hidden xl:flex items-center gap-0 form-border rounded">
-              <input type="search" placeholder="Search..." class="px-3 py-1.5 rounded">
-              <button class="bg-[#f0503e] text-white px-3 py-2 rounded">
-                <i class="fa-solid fa-magnifying-glass"></i>
-              </button>
-            </form>
-
-            <div class="drawer drawer-end" style="position:relative; z-index:9999;">
-              <input id="my-drawer-5" type="checkbox" class="drawer-toggle" />
-              <div class="drawer-content">
-                <label for="my-drawer-5" class="drawer-button hidden md:flex btn bg-[#f0503e] text-white px-4 md:px-6 py-2 md:py-3 rounded items-center gap-2 text-sm md:text-base">
-                  <i class="fa-solid fa-bag-shopping"></i> My cart <span class="ml-2">~ 0</span>
-                </label>
-                <label for="my-drawer-5" class="drawer-button md:hidden btn btn-circle bg-[#f0503e] text-white">
-                  <i class="fa-solid fa-bag-shopping text-xl"></i>
-                </label>
-              </div>
-              <div class="drawer-side z-[9999]">
-                <label for="my-drawer-5" aria-label="close sidebar" class="drawer-overlay"></label>
-                <ul class="menu bg-base-200 min-h-full w-80 p-4">
-                  <li><a>No products in the cart.</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-
         </div>
-      </nav>
-
-    
-    
-
+      </div>
+    </nav>
   </div>
 
+  <!-- mobile menu drawer -->
   <div class="drawer-side z-50">
     <label for="menu-drawer" aria-label="close sidebar" class="drawer-overlay"></label>
-    <div class="bg-white min-h-full w-80">
 
+    <div class="bg-white min-h-full w-80">
       <div class="flex items-center justify-end p-4 border-b border-gray-200">
         <label for="menu-drawer" class="cursor-pointer">
           <i class="fa-solid fa-xmark text-2xl text-gray-600 hover:text-gray-900"></i>
@@ -197,9 +217,8 @@
       </div>
 
       <div class="py-2">
-
         <div class="drawer-menu-item">
-          <a href="#" class="block py-4 px-6">HOME</a>
+          <a href="index.html" class="block py-4 px-6">HOME</a>
         </div>
 
         <div class="drawer-menu-item">
@@ -227,7 +246,7 @@
                   <input type="checkbox" />
                   <div class="collapse-title sub-collapse-title">Beach ball</div>
                   <div class="collapse-content">
-                    <div class="drawer-sub-submenu-item "><a href="#" class="block py-2.5 px-8">Animal rescue truck</a></div>
+                    <div class="drawer-sub-submenu-item"><a href="#" class="block py-2.5 px-8">Animal rescue truck</a></div>
                     <div class="drawer-sub-submenu-item"><a href="#" class="block py-2.5 px-8">Elephant soft toy</a></div>
                     <div class="drawer-sub-submenu-item"><a href="#" class="block py-2.5 px-8">Mythic blaster</a></div>
                     <div class="drawer-sub-submenu-item"><a href="#" class="block py-2.5 px-8">Red garden slide</a></div>
@@ -235,9 +254,6 @@
                   </div>
                 </div>
               </div>
-
-              <div class="drawer-submenu-item"><a href="#" class="block py-3 px-6">Teddy bear</a></div>
-              <div class="drawer-submenu-item"><a href="#" class="block py-3 px-6">Toy cars</a></div>
 
             </div>
           </div>
@@ -248,21 +264,24 @@
         </div>
 
         <div class="drawer-menu-item">
-          <a href="#" class="block py-4 px-6">BLOG</a>
+          <a href="blog.html" class="block py-4 px-6">BLOG</a>
         </div>
 
+  <div class="drawer-menu-item">
+          <a href="contact.html" class="block py-4 px-6">CONTACT US</a>
+        </div>
+        
         <div class="drawer-menu-item">
           <div class="collapse collapse-arrow rounded-none">
             <input type="checkbox" />
             <div class="collapse-title">PAGE</div>
             <div class="collapse-content">
-              <div class="drawer-submenu-item"><a href="#" class="block py-3 px-6">About us</a></div>
-              <div class="drawer-submenu-item"><a href="#" class="block py-3 px-6">Contact us</a></div>
-              <div class="drawer-submenu-item"><a href="#" class="block py-3 px-6">Faqs</a></div>
-              <div class="drawer-submenu-item"><a href="#" class="block py-3 px-6">Return policy</a></div>
-              <div class="drawer-submenu-item"><a href="#" class="block py-3 px-6">Privacy policy</a></div>
-              <div class="drawer-submenu-item"><a href="#" class="block py-3 px-6">Payment policy</a></div>
-              <div class="drawer-submenu-item"><a href="#" class="block py-3 px-6">Terms & condition</a></div>
+              <div><a href="#" class="block py-2.5 px-8">About us</a></div>
+              <div><a href="#" class="block py-2.5 px-8">Faqs</a></div>
+              <div><a href="#" class="block py-2.5 px-8">Return policy</a></div>
+              <div><a href="#" class="block py-2.5 px-8">Privacy policy</a></div>
+              <div><a href="#" class="block py-2.5 px-8">Payment policy</a></div>
+              <div><a href="#" class="block py-2.5 px-8">Terms & condition</a></div>
             </div>
           </div>
         </div>
@@ -270,7 +289,6 @@
       </div>
     </div>
   </div>
-
 </div>
     </header>
 
