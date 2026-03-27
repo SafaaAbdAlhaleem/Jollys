@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.4.19/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mali:wght@400;700&display=swap" rel="stylesheet">
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
+/>
+  <link href="./assets/css/output.css" rel="stylesheet" />
+  <link href="./assets/css/styles.css" rel="stylesheet" />
+
+ 
+</head>
+<body>
+       <header>
+<div class="top-notification-section">
+<div class="top-notification-bar   bg-[#004a68] text-white text-[13px]">
+  <div class="max-w-[1400px] mx-auto px-4">
+    <div class="flex items-center justify-between xl2:justify-between min-h-[42px]">
+
+      <div class="top-bar-left font-medium text-center">
+        <p>        Weekly most popular sale up to 20% off
+</p>
+      </div>
+
+<div class="top-bar-right hidden xl:flex items-center gap-6 font-medium"> 
+         <a href="#" class="hover:text-[#f2553f] transition duration-300">
+          Call : 0123 456 7890
+        </a>
+
+        <a href="#" class="hover:text-[#f2553f] transition duration-300">
+          Login & Register
+        </a>
+
+        <a href="#" class="hover:text-[#f2553f] transition duration-300">
+          Wishlist - 0
+        </a>
+      </div>
+
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="drawer">
+  <input id="menu-drawer" type="checkbox" class="drawer-toggle" />
+
+  <div class="drawer-content">
+
+   
+      <nav class="bg-white w-full top-0 left-0 z-20 border-b border-gray-200">
+        <div class="container mx-auto flex items-center justify-between p-4 ">
+
+          <img src="./assets/images/home/logo.avif" loading="lazy" class="img-fluid" alt="Logo" width="135" height="55">
+
+          <div class="hidden xl:flex items-center gap-6">
+            <a href="#" class="nav-link">HOME</a>
+
+            <div class="dropdown dropdown-hover relative">
+              <div tabindex="0" role="button" class="nav-link flex items-center gap-1">
+                SHOP <i class="fa-solid fa-chevron-down text-xs"></i>
+              </div>
+              <div tabindex="0" class="dropdown-content bg-white shadow-lg border-t border-gray-200 p-8"
+                style="display:flex; flex-direction:row; gap:40px;
+                       position:fixed; left:0; right:0; width:100vw;
+                       top:73px; z-index:50;">
+                <div style="display:flex; flex-direction:row; gap:60px; flex:1; font-family: Poppins, sans-serif;">
+                  <div style="display:flex; flex-direction:column; gap:12px;">
+                    <div style="color:#014363; font-weight:bold; font-size:18px; margin-bottom:8px;">Speed cube</div>
+                    <a href="#" style="color:#6b7280; font-size:15px;" class="hover:text-[#f0503e]">Animal jumping toys</a>
+                    <a href="#" style="color:#6b7280; font-size:15px;" class="hover:text-[#f0503e]">Cottage playset</a>
+                    <a href="#" style="color:#6b7280; font-size:15px;" class="hover:text-[#f0503e]">First pram</a>
+                    <a href="#" style="color:#6b7280; font-size:15px;" class="hover:text-[#f0503e]">Racing vehicles models</a>
+                    <a href="#" style="color:#6b7280; font-size:15px;" class="hover:text-[#f0503e]">Robot on chassis</a>
+                  </div>
+                  <div style="display:flex; flex-direction:column; gap:12px;">
+                    <div style="color:#014363; font-weight:bold; font-size:18px; margin-bottom:8px;">Beach ball</div>
+                    <a href="#" style="color:#6b7280; font-size:15px;" class="hover:text-[#f0503e]">Animal rescue truck</a>
+                    <a href="#" style="color:#6b7280; font-size:15px;" class="hover:text-[#f0503e]">Elephant soft toy</a>
+                    <a href="#" style="color:#6b7280; font-size:15px;" class="hover:text-[#f0503e]">Mythic blaster</a>
+                    <a href="#" style="color:#6b7280; font-size:15px;" class="hover:text-[#f0503e]">Red garden slide</a>
+                    <a href="#" style="color:#6b7280; font-size:15px;" class="hover:text-[#f0503e]">Speed cube</a>
+                  </div>
+                </div>
+                <div style="width:1px; background-color:#e5e7eb; flex-shrink:0;"></div>
+<div style="display:flex; flex-direction:row; gap:16px; flex-shrink:0;">
+  
+  <div style="position:relative; border-radius:10px; overflow:hidden; cursor:pointer;">
+    <img src="./assets/images/home/menu-banner-1.webp" alt="Banner 1"
+      style="width:280px; height:auto; display:block; object-fit:contain;" />
+    <div style="position:absolute; inset:0; background:rgba(0,0,0,0); transition:background 0.3s;"
+      onmouseover="this.style.background='rgba(0,0,0,0.5)'"
+      onmouseout="this.style.background='rgba(0,0,0,0)'">
+    </div>
+  </div>
+
+  <div style="position:relative; border-radius:10px; overflow:hidden; cursor:pointer;">
+    <img src="./assets/images/home/menu-banner-2.webp" alt="Banner 2"
+      style="width:280px; height:auto; display:block; object-fit:contain;" />
+    <div style="position:absolute; inset:0; background:rgba(0,0,0,0); transition:background 0.3s;"
+      onmouseover="this.style.background='rgba(0,0,0,0.5)'"
+      onmouseout="this.style.background='rgba(0,0,0,0)'">
+    </div>
+  </div>
+
+</div>
+              </div>
+            </div>
+
+            <a href="collection.html" class="nav-link">COLLECTION</a>
+            <a href="#" class="nav-link">BLOG</a>
+
+            <div class="dropdown dropdown-hover">
+              <div tabindex="0" role="button" class="nav-link flex items-center gap-1">
+                PAGE <i class="fa-solid fa-chevron-down text-xs"></i>
+              </div>
+              <ul tabindex="0" class="dropdown-content menu bg-white rounded-box z-[1] w-52 p-2 shadow-lg border border-gray-200">
+                <li><a href="#" class="text-gray-700 hover:bg-gray-100">About us</a></li>
+                <li><a href="#" class="text-gray-700 hover:bg-gray-100">Contact us</a></li>
+                <li><a href="#" class="text-gray-700 hover:bg-gray-100">Faqs</a></li>
+                <li><a href="#" class="text-gray-700 hover:bg-gray-100">Return policy</a></li>
+                <li><a href="#" class="text-gray-700 hover:bg-gray-100">Privacy policy</a></li>
+                <li><a href="#" class="text-gray-700 hover:bg-gray-100">Payment policy</a></li>
+                <li><a href="#" class="text-gray-700 hover:bg-gray-100">Terms & condition</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="flex items-center gap-3">
+            <label for="menu-drawer" class="btn btn-ghost btn-circle xl:hidden">
+              <i class="fa-solid fa-bars text-xl"></i>
+            </label>
+            <button class="btn btn-ghost btn-circle xl:hidden">
+              <i class="fa-solid fa-magnifying-glass text-xl"></i>
+            </button>
+            <button class="btn btn-ghost btn-circle xl:hidden">
+              <i class="fa-regular fa-user text-xl"></i>
+            </button>
+            <button class="btn btn-ghost btn-circle xl:hidden relative">
+              <i class="fa-regular fa-heart text-xl"></i>
+              <span class="absolute -top-1 -right-1 bg-red-500 text-white text-xs rounded-full w-5 h-5 flex items-center justify-center">0</span>
+            </button>
+            <form class="hidden xl:flex items-center gap-0 form-border rounded">
+              <input type="search" placeholder="Search..." class="px-3 py-1.5 rounded">
+              <button class="bg-[#f0503e] text-white px-3 py-2 rounded">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </button>
+            </form>
+
+            <div class="drawer drawer-end" style="position:relative; z-index:9999;">
+              <input id="my-drawer-5" type="checkbox" class="drawer-toggle" />
+              <div class="drawer-content">
+                <label for="my-drawer-5" class="drawer-button hidden md:flex btn bg-[#f0503e] text-white px-4 md:px-6 py-2 md:py-3 rounded items-center gap-2 text-sm md:text-base">
+                  <i class="fa-solid fa-bag-shopping"></i> My cart <span class="ml-2">~ 0</span>
+                </label>
+                <label for="my-drawer-5" class="drawer-button md:hidden btn btn-circle bg-[#f0503e] text-white">
+                  <i class="fa-solid fa-bag-shopping text-xl"></i>
+                </label>
+              </div>
+              <div class="drawer-side z-[9999]">
+                <label for="my-drawer-5" aria-label="close sidebar" class="drawer-overlay"></label>
+                <ul class="menu bg-base-200 min-h-full w-80 p-4">
+                  <li><a>No products in the cart.</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </nav>
+
+    
+    
+
+  </div>
+
+  <div class="drawer-side z-50">
+    <label for="menu-drawer" aria-label="close sidebar" class="drawer-overlay"></label>
+    <div class="bg-white min-h-full w-80">
+
+      <div class="flex items-center justify-end p-4 border-b border-gray-200">
+        <label for="menu-drawer" class="cursor-pointer">
+          <i class="fa-solid fa-xmark text-2xl text-gray-600 hover:text-gray-900"></i>
+        </label>
+      </div>
+
+      <div class="py-2">
+
+        <div class="drawer-menu-item">
+          <a href="#" class="block py-4 px-6">HOME</a>
+        </div>
+
+        <div class="drawer-menu-item">
+          <div class="collapse collapse-arrow rounded-none">
+            <input type="checkbox" />
+            <div class="collapse-title">SHOP</div>
+            <div class="collapse-content">
+
+              <div class="drawer-submenu-item">
+                <div class="collapse collapse-arrow rounded-none">
+                  <input type="checkbox" />
+                  <div class="collapse-title sub-collapse-title">Speed cube</div>
+                  <div class="collapse-content">
+                    <div class="drawer-sub-submenu-item"><a href="#" class="block py-2.5 px-8">Animal jumping toys</a></div>
+                    <div class="drawer-sub-submenu-item"><a href="#" class="block py-2.5 px-8">Cottage playset</a></div>
+                    <div class="drawer-sub-submenu-item"><a href="#" class="block py-2.5 px-8">First pram</a></div>
+                    <div class="drawer-sub-submenu-item"><a href="#" class="block py-2.5 px-8">Racing vehicles models</a></div>
+                    <div class="drawer-sub-submenu-item"><a href="#" class="block py-2.5 px-8">Robot on chassis</a></div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="drawer-submenu-item">
+                <div class="collapse collapse-arrow rounded-none">
+                  <input type="checkbox" />
+                  <div class="collapse-title sub-collapse-title">Beach ball</div>
+                  <div class="collapse-content">
+                    <div class="drawer-sub-submenu-item "><a href="#" class="block py-2.5 px-8">Animal rescue truck</a></div>
+                    <div class="drawer-sub-submenu-item"><a href="#" class="block py-2.5 px-8">Elephant soft toy</a></div>
+                    <div class="drawer-sub-submenu-item"><a href="#" class="block py-2.5 px-8">Mythic blaster</a></div>
+                    <div class="drawer-sub-submenu-item"><a href="#" class="block py-2.5 px-8">Red garden slide</a></div>
+                    <div class="drawer-sub-submenu-item"><a href="#" class="block py-2.5 px-8">Speed cube</a></div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="drawer-submenu-item"><a href="#" class="block py-3 px-6">Teddy bear</a></div>
+              <div class="drawer-submenu-item"><a href="#" class="block py-3 px-6">Toy cars</a></div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="drawer-menu-item">
+          <a href="collection.html" class="block py-4 px-6">COLLECTION</a>
+        </div>
+
+        <div class="drawer-menu-item">
+          <a href="#" class="block py-4 px-6">BLOG</a>
+        </div>
+
+        <div class="drawer-menu-item">
+          <div class="collapse collapse-arrow rounded-none">
+            <input type="checkbox" />
+            <div class="collapse-title">PAGE</div>
+            <div class="collapse-content">
+              <div class="drawer-submenu-item"><a href="#" class="block py-3 px-6">About us</a></div>
+              <div class="drawer-submenu-item"><a href="#" class="block py-3 px-6">Contact us</a></div>
+              <div class="drawer-submenu-item"><a href="#" class="block py-3 px-6">Faqs</a></div>
+              <div class="drawer-submenu-item"><a href="#" class="block py-3 px-6">Return policy</a></div>
+              <div class="drawer-submenu-item"><a href="#" class="block py-3 px-6">Privacy policy</a></div>
+              <div class="drawer-submenu-item"><a href="#" class="block py-3 px-6">Payment policy</a></div>
+              <div class="drawer-submenu-item"><a href="#" class="block py-3 px-6">Terms & condition</a></div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+</div>
+    </header>
+    <section class="hero-blog-section relative mb-10">
+  <div class="container mx-auto px-4">
+    <div class="flex items-center justify-between min-h-[220px]">
+      <h2 class="text-white text-[34px] font-bold">News</h2>
+
+      <div class="flex items-center gap-2 text-white text-sm">
+        <a href="index.html" class="hover:text-[#f2553f] text-[18px] transition duration-300">Home</a>
+        <span>|</span>
+        <span class="text-[18px]">News</span>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="blog-content-wrapper pt-10 pb-16 mb-10 border-b border-gray-200">
+<div class="container max-w-[1800px] mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 lg:grid-cols-[350px_1fr] gap-8 items-start">
+<aside class="w-full lg:sticky lg:top-6 self-start lg:pl-10">          <div class="space-y-8">
+
+        <div class="search-recent">
+  <h3 class="text-[18px] font-bold text-[#0b4a6f] mb-4">Search</h3>
+
+  <div class="relative">
+    <input
+      type="text"
+      placeholder="Search blog"
+      class="w-full h-[58px] rounded-[12px] border border-gray-200 bg-white pl-5 pr-14 text-[18px] leading-none outline-none focus:outline-none focus:ring-0"
+    />
+
+    <button
+      type="button"
+      class="absolute top-0 right-0 h-[58px] w-14 flex items-center justify-center text-[#ff5a47] p-0 m-0">
+      <i class="fa-solid fa-magnifying-glass text-[18px] leading-none"></i>
+    </button>
+  </div>
+
+  <div class="w-full h-px bg-gray-200 mt-6"></div>
+</div>
+
+          <div class="recent-post">
+            <h3 class="text-[18px] font-bold text-[#0b4a6f] mb-4">Recent post</h3>
+
+            <div class="space-y-5">
+
+              <div class="flex gap-4 items-start border-b border-gray-200 pb-5">
+                <img src="./assets/images/blog/kids-blog-1.webp" alt="" class="w-[105px] h-[90px] rounded-[14px] object-cover">
+                <div>
+                  <h4 class="text-[16px] font-bold hover:text-[#ff5a47] text-[#0b4a6f] leading-[1.4]">Where would you like ?</h4>
+                  <p class="text-[#ff5a47] text-[16px] font-semibold mt-2">Sep 08, 2022</p>
+                </div>
+              </div>
+
+              <div class="flex gap-4 items-start border-b border-gray-200 pb-5">
+                <img src="./assets/images/blog/kids-blog-2.webp" alt="" class="w-[105px] h-[90px] rounded-[14px] object-cover">
+                <div>
+                  <h4 class="text-[16px] font-bold hover:text-[#ff5a47] text-[#0b4a6f] leading-[1.4]">Beauty counter to shop ?</h4>
+                  <p class="text-[#ff5a47] text-[16px] font-semibold mt-2">Sep 08, 2022</p>
+                </div>
+              </div>
+
+              <div class="flex gap-4 items-start border-b border-gray-200 pb-5">
+                <img src="./assets/images/blog/kids-blog-3.webp" alt="" class="w-[105px] h-[90px] rounded-[14px] object-cover">
+                <div>
+                  <h4 class="text-[16px] font-bold  hover:text-[#ff5a47] text-[#0b4a6f] leading-[1.4]">Funnest beauty counter ?</h4>
+                  <p class="text-[#ff5a47] text-[16px] font-semibold mt-2">Sep 06, 2022</p>
+                </div>
+              </div>
+
+              <div class="flex gap-4 items-start border-b border-gray-200 pb-5">
+                <img src="./assets/images/blog/kids-blog-4.webp" alt="" class="w-[105px] h-[90px] rounded-[14px] object-cover">
+                <div>
+                  <h4 class="text-[16px] font-bold  hover:text-[#ff5a47] text-[#0b4a6f] leading-[1.4]">Have you ever owned ?</h4>
+                  <p class="text-[#ff5a47] text-[16px] font-semibold mt-2">Sep 06, 2022</p>
+                </div>
+              </div>
+
+              <div class="flex gap-4 items-start border-b border-gray-200 pb-5">
+                <img src="./assets/images/blog/kids-blog-5.webp" alt="" class="w-[105px] h-[90px] rounded-[14px] object-cover">
+                <div>
+                  <h4 class="text-[16px] font-bold hover:text-[#ff5a47] text-[#0b4a6f] leading-[1.4]">Last lipstick you bought?</h4>
+                  <p class="text-[#ff5a47] text-[16px] font-semibold mt-2">Sep 06, 2022</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="tags">
+            <h3 class="text-[22px] font-bold text-[#0b4a6f] mb-4">Tags</h3>
+            <div class="flex flex-wrap gap-3">
+             <span class="bg-[#2f2f2f] text-white px-5 py-3 rounded-[12px] text-[16px] border border-[#2f2f2f] hover:bg-white hover:text-black transition duration-300 cursor-pointer">Blog</span>
+
+<span class="bg-[#2f2f2f] text-white px-5 py-3 rounded-[12px] text-[16px] border border-[#2f2f2f] hover:bg-white hover:text-black transition duration-300 cursor-pointer">Fashion</span>
+
+<span class="bg-[#2f2f2f] text-white px-5 py-3 rounded-[12px] text-[16px] border border-[#2f2f2f] hover:bg-white hover:text-black transition duration-300 cursor-pointer">Mobiles</span>
+
+<span class="bg-[#2f2f2f] text-white px-5 py-3 rounded-[12px] text-[16px] border border-[#2f2f2f] hover:bg-white hover:text-black transition duration-300 cursor-pointer">News</span>
+            </div>
+          </div>
+
+        </div>
+      </aside>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+
+        <!-- card 1 -->
+        <div class="card bg-[#eef3f5] rounded-[14px] overflow-hidden shadow-none">
+          <figure>
+            <img
+              src="./assets/images/blog/kids-blog-1.webp"
+              alt="blog"
+              class="w-full h-[360px] object-cover" />
+          </figure>
+          <div class="card-body p-8">
+            <h2 class="card-title text-[18px] hover:text-[#ff5a47] font-bold text-[#0b4a6f] mb-2">Where would you like ?</h2>
+            <p class="text-[16px] leading-[1.8] text-gray-500">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit doli. Aenean commodo ligula eget dolor. Aenean mas...
+            </p>
+            <div class="card-actions justify-start mt-4">
+              <a href="#" class="text-[#ff5a47] hover:text-black text-[18px] font-bold uppercase underline transition duration-300">
+Read More</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- card 2 -->
+        <div class="card bg-[#eef3f5] rounded-[14px] overflow-hidden shadow-none">
+          <figure>
+            <img
+              src="./assets/images/blog/kids-blog-2.webp"
+              alt="blog"
+              class="w-full h-[360px] object-cover" />
+          </figure>
+          <div class="card-body p-8">
+            <h2 class="card-title text-[18px] hover:text-[#ff5a47] font-bold text-[#0b4a6f] mb-2">Beauty counter to shop ?</h2>
+            <p class="text-[16px] leading-[1.8] text-gray-500">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit doli. Aenean commodo ligula eget dolor. Aenean mas...
+            </p>
+            <div class="card-actions justify-start mt-4">
+              <a href="#" class="text-[#ff5a47] hover:text-black text-[18px] font-bold uppercase underline transition duration-300">
+Read More</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- card 3 -->
+        <div class="card bg-[#eef3f5] rounded-[14px] overflow-hidden shadow-none">
+          <figure>
+            <img
+              src="./assets/images/blog/kids-blog-3.webp"
+              alt="blog"
+              class="w-full h-[360px] object-cover" />
+          </figure>
+          <div class="card-body p-8">
+            <h2 class="card-title text-[18px] hover:text-[#ff5a47] font-bold text-[#0b4a6f] mb-2">How much do you ?</h2>
+            <p class="text-[16px] leading-[1.8] text-gray-500">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit doli. Aenean commodo ligula eget dolor. Aenean mas...
+            </p>
+            <div class="card-actions justify-start mt-4">
+              <a href="#" class="text-[#ff5a47] hover:text-black text-[18px] font-bold uppercase underline transition duration-300">
+Read More</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- card 4 -->
+        <div class="card bg-[#eef3f5] rounded-[14px] overflow-hidden shadow-none">
+          <figure>
+            <img
+              src="./assets/images/blog/kids-blog-4.webp"
+              alt="blog"
+              class="w-full h-[360px] object-cover" />
+          </figure>
+          <div class="card-body p-8">
+            <h2 class="card-title text-[18px] hover:text-[#ff5a47] font-bold text-[#0b4a6f] mb-2">Taupe or pink lipstick ?</h2>
+            <p class="text-[16px] leading-[1.8] text-gray-500">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit doli. Aenean commodo ligula eget dolor. Aenean mas...
+            </p>
+            <div class="card-actions justify-start mt-4">
+             <a href="#" class="text-[#ff5a47] hover:text-black text-[18px] font-bold uppercase underline transition duration-300">
+Read More</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- card 5 -->
+        <div class="card bg-[#eef3f5] rounded-[14px] overflow-hidden shadow-none">
+          <figure>
+            <img
+              src="./assets/images/blog/kids-blog-5.webp"
+              alt="blog"
+              class="w-full h-[360px] object-cover" />
+          </figure>
+          <div class="card-body p-8">
+            <h2 class="card-title text-[18px] hover:text-[#ff5a47] font-bold text-[#0b4a6f] mb-2">Have you ever owned ?</h2>
+            <p class="text-[16px] leading-[1.8] text-gray-500">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit doli. Aenean commodo ligula eget dolor. Aenean mas...
+            </p>
+            <div class="card-actions justify-start mt-4">
+             <a href="#" class="text-[#ff5a47] hover:text-black text-[18px] font-bold uppercase underline transition duration-300">
+Read More</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- card 6 -->
+        <div class="card bg-[#eef3f5] rounded-[14px] overflow-hidden shadow-none">
+          <figure>
+            <img
+              src="./assets/images/blog/kids-blog-6.webp"
+              alt="blog"
+              class="w-full h-[360px] object-cover" />
+          </figure>
+          <div class="card-body p-8">
+            <h2 class="card-title text-[18px] hover:text-[#ff5a47] font-bold text-[#0b4a6f] mb-2">Last lipstick you bought?</h2>
+            <p class="text-[16px] leading-[1.8] text-gray-500">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit doli. Aenean commodo ligula eget dolor. Aenean mas...
+            </p>
+            <div class="card-actions justify-start mt-4">
+              <a href="#" class="text-[#ff5a47] hover:text-black text-[18px] font-bold uppercase underline transition duration-300">
+Read More</a>
+            </div>
+          </div>
+        </div>
+          <!-- card 7 -->
+        <div class="card bg-[#eef3f5] rounded-[14px] overflow-hidden shadow-none">
+          <figure>
+            <img
+              src="./assets/images/blog/kids-blog-7.webp"
+              alt="blog"
+              class="w-full h-[360px] object-cover" />
+          </figure>
+          <div class="card-body p-8">
+            <h2 class="card-title text-[18px] hover:text-[#ff5a47] font-bold text-[#0b4a6f] mb-2">Last lipstick you bought?</h2>
+            <p class="text-[16px] leading-[1.8] text-gray-500">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit doli. Aenean commodo ligula eget dolor. Aenean mas...
+            </p>
+            <div class="card-actions justify-start mt-4">
+             <a href="#" class="text-[#ff5a47] hover:text-black text-[18px] font-bold uppercase underline transition duration-300">
+Read More</a>
+            </div>
+          </div>
+        </div>
+          <!-- card 8 -->
+        <div class="card bg-[#eef3f5] rounded-[14px] overflow-hidden shadow-none">
+          <figure>
+            <img
+              src="./assets/images/blog/kids-blog-8.webp"
+              alt="blog"
+              class="w-full h-[360px] object-cover" />
+          </figure>
+          <div class="card-body p-8">
+            <h2 class="card-title text-[18px] hover:text-[#ff5a47] font-bold text-[#0b4a6f] mb-2">Last lipstick you bought?</h2>
+            <p class="text-[16px] leading-[1.8] text-gray-500">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit doli. Aenean commodo ligula eget dolor. Aenean mas...
+            </p>
+            <div class="card-actions justify-start mt-4">
+              <a href="#" class="text-[#ff5a47] hover:text-black text-[18px] font-bold uppercase underline transition duration-300">
+Read More</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</section>
+    
+</body>
+<footer>
+  <section class="footer-section ">
+
+      <div class="first-footer py-10 md:py-16 border-b border-[#dddddd]">
+        <div class="max-w-[1400px] mx-auto px-4">
+          <div class="grid grid-cols-1 lg:grid-cols-3 items-center gap-6 lg:gap-8 text-center lg:text-left">
+
+            <div>
+              <h2 class="text-[26px] md:text-[42px] font-bold text-[#f2553f] leading-tight">
+                Subscribe now
+              </h2>
+            </div>
+
+            <div>
+              <p class="text-[16px] text-[#6b7280] leading-[1.8] max-w-[420px] mx-auto lg:mx-0">
+                Subscribe to our newsletter and Get
+                <br>
+                10% off on your first order
+              </p>
+            </div>
+
+            <div>
+             <form class="w-full">
+  <div class="flex flex-col sm:flex-row w-full">
+    <input
+      type="email"
+      placeholder="Enter your email.."
+      class="w-full h-[60px] px-6 text-[18px] text-[#6b7280] outline-none bg-transparent border border-[#d9d9d9] rounded-[16px] sm:rounded-l-[16px] sm:rounded-r-none"
+    />
+
+    <button
+      type="submit"
+      class="h-[58px] sm:h-[60px] w-fit mx-auto mt-4 sm:mt-0 sm:mx-0 px-8 shrink-0 bg-[#f2553f] text-white text-[18px] font-semibold uppercase whitespace-nowrap hover:bg-black transition duration-300 flex items-center justify-center gap-2 rounded-[14px] sm:rounded-l-none sm:rounded-r-[16px]"
+    >
+      <i class="fa-regular fa-envelope"></i>
+      <span>Subscribe</span>
+    </button>
+  </div>
+</form>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="second-footer py-10 md:py-14">
+        <div class="max-w-[1400px] mx-auto px-4">
+
+          <!-- desktop/tablet -->
+<div class="second-footer-wrap hidden md:grid md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-5 gap-y-10 gap-x-8 items-start">            <!-- logo + social -->
+<div class="logo-footer md:col-span-2 lg:col-span-4 xl:col-span-1 flex flex-col items-center text-center xl:items-start xl:text-left">
+  <a href="#" class="inline-block mb-8">
+    <img src="./assets/images/home/logo.avif" alt="Jollys" class="max-w-[140px]">
+  </a>               
+
+<div class="social-footer flex items-center justify-center xl:justify-start gap-3 ">   
+               <a href="#" class="w-10 h-10 rounded-full border border-[#d9d9d9] flex items-center justify-center text-[#6b7280] hover:bg-[#f2553f] hover:text-white hover:border-[#f2553f] transition duration-300">
+                  <i class="fa-brands fa-facebook-f text-sm"></i>
+                </a>
+                <a href="#" class="w-10 h-10 rounded-full border border-[#d9d9d9] flex items-center justify-center text-[#6b7280] hover:bg-[#f2553f] hover:text-white hover:border-[#f2553f] transition duration-300">
+                  <i class="fa-brands fa-instagram text-sm"></i>
+                </a>
+                <a href="#" class="w-10 h-10 rounded-full border border-[#d9d9d9] flex items-center justify-center text-[#6b7280] hover:bg-[#f2553f] hover:text-white hover:border-[#f2553f] transition duration-300">
+                  <i class="fa-brands fa-twitter text-sm"></i>
+                </a>
+                <a href="#" class="w-10 h-10 rounded-full border border-[#d9d9d9] flex items-center justify-center text-[#6b7280] hover:bg-[#f2553f] hover:text-white hover:border-[#f2553f] transition duration-300">
+                  <i class="fa-brands fa-dribbble text-sm"></i>
+                </a>
+                <a href="#" class="w-10 h-10 rounded-full border border-[#d9d9d9] flex items-center justify-center text-[#6b7280] hover:bg-[#f2553f] hover:text-white hover:border-[#f2553f] transition duration-300">
+                  <i class="fa-brands fa-youtube text-sm"></i>
+                </a>
+              </div>
+            </div>
+
+<div class="conact-us-footer md:col-span-1 lg:col-span-1">              <h3 class="text-[20px] font-semibold text-[#f2553f] mb-5">Contact us</h3>
+              <ul class="space-y-3 text-[15px] text-[#6b7280] leading-[1.9]">
+                <li class="flex items-start gap-3">
+                  <i class="fa-solid fa-location-dot text-[#f2553f] mt-1"></i>
+                  <span>
+                    70 Washington square south,<br>
+                    New york ny 10012,<br>
+                    United states
+                  </span>
+                </li>
+                <li class="flex items-center gap-3">
+                  <i class="fa-solid fa-phone text-[#f2553f]"></i>
+                  <a href="#" class="hover:text-[#f2553f] transition duration-300">+36 0123 456 789</a>
+                </li>
+                <li class="flex items-center gap-3">
+                  <i class="fa-regular fa-envelope text-[#f2553f]"></i>
+                  <a href="#" class="hover:text-[#f2553f] transition duration-300">demo@demo.com</a>
+                </li>
+              </ul>
+            </div>
+
+<div class="categories-footer md:col-span-1 lg:col-span-1">              <h3 class="text-[20px] font-semibold text-[#f2553f] mb-5">Categories</h3>
+              <ul class="space-y-2 text-[15px] text-[#6b7280]">
+                <li><a href="#" class="hover:text-[#f2553f] transition duration-300">Toy cars</a></li>
+                <li><a href="#" class="hover:text-[#f2553f] transition duration-300">Beach ball</a></li>
+                <li><a href="#" class="hover:text-[#f2553f] transition duration-300">Teddy bear</a></li>
+                <li><a href="#" class="hover:text-[#f2553f] transition duration-300">Baby scooter</a></li>
+                <li><a href="#" class="hover:text-[#f2553f] transition duration-300">Racing car</a></li>
+                <li><a href="#" class="hover:text-[#f2553f] transition duration-300">Baby bike</a></li>
+              </ul>
+            </div>
+
+<div class="informaion-footer md:col-span-1 lg:col-span-1">              <h3 class="text-[20px] font-semibold text-[#f2553f] mb-5">Information</h3>
+              <ul class="space-y-2 text-[15px] text-[#6b7280]">
+                <li><a href="#" class="hover:text-[#f2553f] transition duration-300">About us</a></li>
+                <li><a href="#" class="hover:text-[#f2553f] transition duration-300">Contact us</a></li>
+                <li><a href="#" class="hover:text-[#f2553f] transition duration-300">Faqs</a></li>
+                <li><a href="#" class="hover:text-[#f2553f] transition duration-300">Privacy policy</a></li>
+                <li><a href="#" class="hover:text-[#f2553f] transition duration-300">Return policy</a></li>
+                <li><a href="#" class="hover:text-[#f2553f] transition duration-300">Payment policy</a></li>
+              </ul>
+            </div>
+
+<div class="privacy-footer md:col-span-1 lg:col-span-1">              <h3 class="text-[20px] font-semibold text-[#f2553f] mb-5">Privacy & terms</h3>
+              <ul class="space-y-2 text-[15px] text-[#6b7280]">
+                <li><a href="#" class="hover:text-[#f2553f] transition duration-300">My account</a></li>
+                <li><a href="#" class="hover:text-[#f2553f] transition duration-300">My wishlist</a></li>
+                <li><a href="#" class="hover:text-[#f2553f] transition duration-300">My cart</a></li>
+                <li><a href="#" class="hover:text-[#f2553f] transition duration-300">Terms & condition</a></li>
+                <li><a href="#" class="hover:text-[#f2553f] transition duration-300">Help & support</a></li>
+                <li><a href="#" class="hover:text-[#f2553f] transition duration-300">Store location</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- mobile -->
+          <div class="mobile-footer md:hidden">
+            <div class="logo-footer flex flex-col items-center text-center mb-8">
+              <a href="#" class="inline-block mb-8">
+                <img src="./assets/images/home/logo.avif" alt="Jollys" class="max-w-[140px]">
+              </a>
+
+              <div class="social-footer flex items-center justify-center gap-3 flex-wrap">
+                <a href="#" class="w-10 h-10 rounded-full border border-[#d9d9d9] flex items-center justify-center text-[#6b7280]">
+                  <i class="fa-brands fa-facebook-f text-sm"></i>
+                </a>
+                <a href="#" class="w-10 h-10 rounded-full border border-[#d9d9d9] flex items-center justify-center text-[#6b7280]">
+                  <i class="fa-brands fa-instagram text-sm"></i>
+                </a>
+                <a href="#" class="w-10 h-10 rounded-full border border-[#d9d9d9] flex items-center justify-center text-[#6b7280]">
+                  <i class="fa-brands fa-twitter text-sm"></i>
+                </a>
+                <a href="#" class="w-10 h-10 rounded-full border border-[#d9d9d9] flex items-center justify-center text-[#6b7280]">
+                  <i class="fa-brands fa-dribbble text-sm"></i>
+                </a>
+                <a href="#" class="w-10 h-10 rounded-full border border-[#d9d9d9] flex items-center justify-center text-[#6b7280]">
+                  <i class="fa-brands fa-youtube text-sm"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="mobile-footer-accordion space-y-3">
+              <details class="conact-us-footer group border-b border-transparent pb-2">
+                <summary class="list-none flex items-center justify-between cursor-pointer text-[20px] font-semibold text-[#f2553f]">
+                  <span>Contact us</span>
+                  <span class="text-[34px] leading-none font-normal group-open:rotate-45 transition duration-300">+</span>
+                </summary>
+                <ul class="pt-4 space-y-3 text-[15px] text-[#6b7280] leading-[1.9]">
+                  <li class="flex items-start gap-3">
+                    <i class="fa-solid fa-location-dot text-[#f2553f] mt-1"></i>
+                    <span>
+                      70 Washington square south,<br>
+                      New york ny 10012,<br>
+                      United states
+                    </span>
+                  </li>
+                  <li class="flex items-center gap-3">
+                    <i class="fa-solid fa-phone text-[#f2553f]"></i>
+                    <a href="#">+36 0123 456 789</a>
+                  </li>
+                  <li class="flex items-center gap-3">
+                    <i class="fa-regular fa-envelope text-[#f2553f]"></i>
+                    <a href="#">demo@demo.com</a>
+                  </li>
+                </ul>
+              </details>
+
+              <details class="categories-footer group border-b border-transparent pb-2">
+                <summary class="list-none flex items-center justify-between cursor-pointer text-[20px] font-semibold text-[#f2553f]">
+                  <span>Categories</span>
+                  <span class="text-[34px] leading-none font-normal group-open:rotate-45 transition duration-300">+</span>
+                </summary>
+                <ul class="pt-4 space-y-2 text-[15px] text-[#6b7280]">
+                  <li><a href="#">Toy cars</a></li>
+                  <li><a href="#">Beach ball</a></li>
+                  <li><a href="#">Teddy bear</a></li>
+                  <li><a href="#">Baby scooter</a></li>
+                  <li><a href="#">Racing car</a></li>
+                  <li><a href="#">Baby bike</a></li>
+                </ul>
+              </details>
+
+              <details class="informaion-footer group border-b border-transparent pb-2">
+                <summary class="list-none flex items-center justify-between cursor-pointer text-[20px] font-semibold text-[#f2553f]">
+                  <span>Information</span>
+                  <span class="text-[34px] leading-none font-normal group-open:rotate-45 transition duration-300">+</span>
+                </summary>
+                <ul class="pt-4 space-y-2 text-[15px] text-[#6b7280]">
+                  <li><a href="#">About us</a></li>
+                  <li><a href="#">Contact us</a></li>
+                  <li><a href="#">Faqs</a></li>
+                  <li><a href="#">Privacy policy</a></li>
+                  <li><a href="#">Return policy</a></li>
+                  <li><a href="#">Payment policy</a></li>
+                </ul>
+              </details>
+
+              <details class="privacy-footer group border-b border-transparent pb-2">
+                <summary class="list-none flex items-center justify-between cursor-pointer text-[20px] font-semibold text-[#f2553f]">
+                  <span>Privacy & terms</span>
+                  <span class="text-[34px] leading-none font-normal group-open:rotate-45 transition duration-300">+</span>
+                </summary>
+                <ul class="pt-4 space-y-2 text-[15px] text-[#6b7280]">
+                  <li><a href="#">My account</a></li>
+                  <li><a href="#">My wishlist</a></li>
+                  <li><a href="#">My cart</a></li>
+                  <li><a href="#">Terms & condition</a></li>
+                  <li><a href="#">Help & support</a></li>
+                  <li><a href="#">Store location</a></li>
+                </ul>
+              </details>
+            </div>
+          </div>
+
+        </div>
+      </div>
+<div class="third-footer border-t border-[#dddddd] py-6">
+  <div class="max-w-[1400px] mx-auto px-4">
+    <div class="flex flex-col md:flex-row items-center justify-between gap-4">
+
+      <div class="copyright-footer text-[15px] text-[#6b7280] text-center md:text-left">
+        <p>© 2026, Ecommerce by qodexTM</p>
+      </div>
+
+      <div class="payment-footer flex items-center gap-3">
+        <a href="#" class="w-[54px] h-[34px] rounded-[6px] border border-[#d9d9d9] bg-white flex items-center justify-center">
+          <img src="./assets/images/home/visa-classic.svg" alt="Visa" class="max-h-[40px] object-contain">
+        </a>
+
+        <a href="#" class="w-[54px] h-[34px] rounded-[6px] border border-[#d9d9d9] bg-white flex items-center justify-center">
+          <img src="./assets/images/home/paypal.svg" alt="Paypal" class="max-h-[40px] object-contain">
+        </a>
+
+        <a href="#" class="w-[54px] h-[34px] rounded-[6px] border border-[#d9d9d9] bg-white flex items-center justify-center">
+          <img src="./assets/images/home/mastercard.svg" alt="Mastercard" class="max-h-[40px] object-contain">
+        </a>
+
+        <a href="#" class="w-[54px] h-[34px] rounded-[6px] border border-[#d9d9d9] bg-white flex items-center justify-center">
+          <img src="./assets/images/home/american-express.svg" alt="Amex" class="max-h-[40px] object-contain">
+        </a>
+      </div>
+
+    </div>
+  </div>
+</div>
+  </section>
+</footer>
+</html>

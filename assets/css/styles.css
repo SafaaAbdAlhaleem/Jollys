@@ -471,3 +471,37 @@ font-size: 16px;
       font-family: 'Poppins', sans-serif;
 
 }
+.hero-collection-section{
+  background-image: url('../images/collection/breadcrumb.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.hero-collection-section span,h2,a{
+        font-family: 'Poppins', sans-serif;
+
+}
+.collection-list h6,span{
+          font-family: 'Poppins', sans-serif;
+
+}
+.hero-blog-section{
+  background-image: url('../images/collection/breadcrumb.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.hero-blog-section span,h2,a{
+        font-family: 'Poppins', sans-serif;
+
+}
+.blog-content-wrapper {
+          font-family: 'Poppins', sans-serif;
+
+}
+.tags{
+            font-family: 'Poppins', sans-serif;
+
+}
